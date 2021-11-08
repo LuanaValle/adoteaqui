@@ -1,0 +1,13 @@
+.caixa {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 700px){
+    .caixa {
+        display: none;
+        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+}
